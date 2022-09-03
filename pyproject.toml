@@ -1,0 +1,23 @@
+[build-system]
+requires=["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "NF_itens_SEFAZ_AM"
+version = "0.0.1"
+authors = [
+    { name = "Bruno Ruas", email = "bruno.ruas2@gmail.com" },
+]
+description = "Get itens from a Fiscal Ticket in Brazilian State of Amazonas"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/brunoruas2/itens_sefazAM_NF"
+"Bug Tracker" = "https://github.com/brunoruas2/itens_sefazAM_NF/issues" 
